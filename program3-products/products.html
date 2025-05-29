@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Management</title>
+</head>
+<body>
+  <h1>Product Management</h1>
+
+  <h2>Add Product</h2>
+  <input type="text" id="productNameInput" placeholder="Product Name">
+  <input type="number" id="productPriceInput" placeholder="Price">
+  <input type="number" id="productQuantityInput" placeholder="Quantity">
+  <button onclick="addProduct()">Add</button>
+
+  <h2>Search Product</h2>
+  <input type="text" id="searchInput" placeholder="Product Name">
+  <button onclick="searchProduct()">Search</button>
+  <p id="searchResult"></p>
+
+  <h2>All Products</h2>
+  <ul id="productList"></ul>
+
+  <h2>Total Inventory Value</h2>
+  <button onclick="calculateTotalValue()">Calculate</button>
+  <p id="totalValueResult"></p>
+
+  <h2>Back to menu</h2>
+  <a href="../index.html">Click here</a>
+
+  <script src="../dist/program3-products/products.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hotel Reservation System</title>
+</head>
+<body>
+  <h1>Hotel Reservation Management</h1>
+
+  <h2>Add Reservation</h2>
+  <label for="guestName">Guest Name:</label>
+  <input type="text" id="guestName"><br>
+
+  <label for="roomNumber">Room Number:</label>
+  <input type="number" id="roomNumber"><br>
+
+  <label for="nights">Number of Nights:</label>
+  <input type="number" id="nights"><br>
+
+  <label for="pricePerNight">Price per Night:</label>
+  <input type="number" id="pricePerNight" step="0.01"><br>
+
+  <button id="addBtn">Add Reservation</button>
+
+  <h2>Search Reservation</h2>
+  <label for="searchName">Guest Name:</label>
+  <input type="text" id="searchName">
+  <button id="searchBtn">Search</button>
+
+  <h2>Total Income</h2>
+  <button id="incomeBtn">Calculate Income</button>
+
+  <h3>Output:</h3>
+  <pre id="output"></pre>
+
+  <h2>Back to menu</h2>
+  <a href="../index.html">Click here</a>
+
+  <script src="../dist/program5-reservations/reservations.js"></script>
+</body>
+</html>

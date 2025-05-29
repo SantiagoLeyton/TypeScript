@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Employee Management System</title>
+</head>
+<body>
+  <h1>Employee Management</h1>
+
+  <h3>Add Employee</h3>
+  <input type="text" id="nameInput" placeholder="Name">
+  <input type="number" id="salaryInput" placeholder="Salary">
+  <button onclick="addEmployee()">Add</button>
+
+  <h3>Search Employee</h3>
+  <input type="text" id="searchInput" placeholder="Enter name">
+  <button onclick="searchEmployee()">Search</button>
+  <p id="searchResult"></p>
+
+  <h3>All Employees</h3>
+  <button onclick="showAllEmployees()">Show All</button>
+  <ul id="employeeList"></ul>
+
+  <h3>Average Salary</h3>
+  <button onclick="calculateAverage()">Calculate Average</button>
+  <p id="averageResult"></p>
+
+  <h2>Back to menu</h2>
+  <a href="../index.html">Click here</a>
+
+  <script src="../dist/program2-employees/employees.js"></script>
+</body>
+</html>
