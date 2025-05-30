@@ -36,7 +36,7 @@ function searchEmployee(): void {
   const name = searchInput.value.trim();
 
   // Busca un empleado cuyo nombre coincida (ignorando mayúsculas/minúsculas)
-  const found = employees.find(emp => emp.name.toLowerCase() === name.toLowerCase());
+  const found = employees.find(emp => emp.name.toLowerCase() === name.toLowerCase()); 
 
   // Muestra el resultado
   result.textContent = found
